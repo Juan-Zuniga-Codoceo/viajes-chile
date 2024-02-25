@@ -23,13 +23,13 @@
                             <a class="nav-link" href="#Home">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#presentation">¿Quiénes somos?</a>
+                            <a class="nav-link" href="#quienes-somos">¿Quiénes somos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#highlights">Destacados</a>
+                            <a class="nav-link" href="#destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -38,7 +38,7 @@
     </header>
     <main>
         <!-- Carousel -->
-        <section id="carousel">
+        <section id="Home">
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -147,9 +147,31 @@
         </section>
 
         <!-- Sección de formulario de contacto -->
-        <section id="contact">
-        <!-- Contenido del formulario de contacto aquí -->
+        <section id="contacto" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4 text-white">Contacto</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label text-white">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese su nombre">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-white">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese su correo electrónico">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label text-white">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="4" placeholder="Ingresa tu mensaje" data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese su mensaje"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="background-color: #0dcaf0;" data-bs-toggle="tooltip" data-bs-placement="top" title="Enviar mensaje">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
+        
     </main>
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-4">
