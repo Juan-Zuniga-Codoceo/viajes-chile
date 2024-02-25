@@ -23,12 +23,32 @@ body {
 
 /*-------Quienes somos---------*/
 #quienes-somos .bg-custom {
-    background-color: #0dcaf0;
-    padding: 20px;
+    background-color: #0dcaf0; /* Fondo de color para el favicon */
+    padding: 5px;
     margin-bottom: 20px;
+    color: white;
 }
 
-#quienes-somos i {
-    font-size: 40px;
-    margin-bottom: 10px;
+#quienes-somos .text-custom {
+    background-color: black; /* Fondo de color para el texto */
+    color: white; /* Color de texto blanco */
+    padding: 10px; /* Espaciado para el texto */
+    margin-top: 10px; /* Espaciado superior para separar del favicon */
+}
+
+#quienes-somos h2 {
+    color: white; /* Color de texto blanco */
+}
+
+/*--------Destacados------*/
+.bg-custom {
+    background-color: #0dcaf0; /* Color de fondo de las tarjetas */
+}
+
+.text-white {
+    color: white; /* Color del texto */
+}
+
+.card {
+    height: 100%; /* Hace que todas las tarjetas tengan la misma altura */
 }
