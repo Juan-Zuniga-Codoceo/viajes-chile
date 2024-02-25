@@ -5,50 +5,50 @@ body {
 }
 
 .navbar.navbar-custom {
-    background-color: #0dcaf0; /* Aumenta la especificidad del selector */
+    background-color: #0dcaf0; 
 }
 
 .navbar-custom .navbar-brand img {
-    max-height: 30px; /* Ajusta el tamaño del logo según sea necesario */
+    max-height: 30px; 
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-brand img {
-    color: white !important; /* Cambia el color del texto y del logo a blanco */
+    color: white !important; 
 }
 
 .navbar-custom .navbar-nav .nav-link {
-    color: white !important; /* Cambia el color de los enlaces del menú a blanco */
+    color: white !important; 
 }
 
 /*-------Quienes somos---------*/
 #quienes-somos .bg-custom {
-    background-color: #0dcaf0; /* Fondo de color para el favicon */
+    background-color: #0dcaf0; 
     padding: 5px;
     margin-bottom: 20px;
     color: white;
 }
 
 #quienes-somos .text-custom {
-    background-color: black; /* Fondo de color para el texto */
-    color: white; /* Color de texto blanco */
-    padding: 10px; /* Espaciado para el texto */
-    margin-top: 10px; /* Espaciado superior para separar del favicon */
+    background-color: black; 
+    color: white; 
+    padding: 10px; 
+    margin-top: 10px; 
 }
 
 #quienes-somos h2 {
-    color: white; /* Color de texto blanco */
+    color: white; 
 }
 
 /*--------Destacados------*/
 .bg-custom {
-    background-color: #0dcaf0; /* Color de fondo de las tarjetas */
+    background-color: #0dcaf0; 
 }
 
 .text-white {
-    color: white; /* Color del texto */
+    color: white; 
 }
 
 .card {
-    height: 100%; /* Hace que todas las tarjetas tengan la misma altura */
+    height: 100%; 
 }
