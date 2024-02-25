@@ -1,0 +1,34 @@
+/* Estilos CSS personalizados */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.navbar.navbar-custom {
+    background-color: #0dcaf0; /* Aumenta la especificidad del selector */
+}
+
+.navbar-custom .navbar-brand img {
+    max-height: 30px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-brand img {
+    color: white !important; /* Cambia el color del texto y del logo a blanco */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white !important; /* Cambia el color de los enlaces del menú a blanco */
+}
+
+/*-------Quienes somos---------*/
+#quienes-somos .bg-custom {
+    background-color: #0dcaf0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#quienes-somos i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
